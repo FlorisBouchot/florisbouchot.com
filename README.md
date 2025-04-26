@@ -1,2 +1,2 @@
-# florisbouchot.github.io
+# florisbouchot.com
 Personal Website
