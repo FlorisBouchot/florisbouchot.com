@@ -4,53 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/screen.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="android-chrome-192x192.png">
-    <script src="https://kit.fontawesome.com/6724a792e2.js" crossorigin="anonymous"></script>
-    <title>Floris Bouchot - Developer</title>
+    <title>Floris Bouchot | Dive into Adventure</title>
+    <link rel="icon" type="image/ico" sizes="32x32" href="assets/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
+    <a href="/" class="site-header">
+        <img src="assets/images/icon.png" alt="Floris Bouchot Logo" class="site-logo">
+        <span class="site-name">Floris Bouchot</span>
+    </a>
 
-        <nav class="navigation">
-            <ul>
-                <li> <a href="index.html"> <i class="fas fa-home"></i> </a></li>
-                <li> <a href="about.html">About</a> </li>
-                <li> <a href="projects.html">Projects</a> </li>
-                <li> Other </li>
-            </ul>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#diving">Diving</a>
+            
         </nav>
-
-        <nav class="contact">
-            <ul>
-                <li><a href="mailto:floris@florisbouchot.com"> <i class="fas fa-envelope-square"></i></a></li>
-                <li><a href="https://linkedin.com/in/florisbouchot"> <i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/FlorisBouchot"> <i class="fab fa-github-square"></i></a></li>
-            </ul>
-        </nav>
-
     </header>
 
-    <main class="index">
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore. Learn. Dive.</h1>
+            <p>Scuba Diving Instructor Intern | Ocean Enthusiast</p>
+            <a href="#about" class="btn">Let's Dive In</a>
+        </div>
+    </section>
 
-        <h1>Hi, I am Floris!</h1>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi! I'm Floris, passionate about the ocean, teaching diving, and sharing unforgettable underwater adventures.
+            Soon to be a certified Scuba Instructor, I’m here to help you discover the magic of the deep in a fun, safe,
+            and inspiring way.</p>
+    </section>
 
-        <h2>Cloud Developer, AI Enthusiast, Student of Life...</h2>
-       
-    </main>
+    <section id="diving" class="section dark">
+        <h2>Diving Philosophy</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Adventure with Purpose</h3>
+                <p>Every dive is a new story. Explore with intention.</p>
+            </div>
+            <div class="feature">
+                <h3>Learn at Your Pace</h3>
+                <p>We take the time to make you confident and comfortable.</p>
+            </div>
+            <div class="feature">
+                <h3>Safety First, Fun Always</h3>
+                <p>Serious about safety, serious about smiles!</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="courses" class="section">
+        <h2>Courses (Coming Soon!)</h2>
+        <p>Exciting news! Soon I'll be offering diving courses for beginners and advanced adventurers alike. Stay tuned!
+        </p>
+    </section>
+
+    <section id="contact" class="section dark">
+        <h2>Contact</h2>
+        <p>hello@florisbouchot.com</p>
+    </section>
 
     <footer>
         <p> &#169; Floris Bouchot &mdash; <span id="year"></span></p>
     </footer>
-
-    <script src="assets/js/script.js"></script>
-
+    
+    <script src="script.js"></script>
 </body>
+
 </html>
